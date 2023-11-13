@@ -1,0 +1,123 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+/* Navbar */
+.menu-button {
+  background-color: #f2f6ff;
+  padding: 16px;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.navbar-nav a {
+  color: #234cad;
+  font-size: 18px;
+  font-weight: 600;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav a:hover {
+  font-weight: bold;
+  color: black;
+  border-bottom: 0.1rem solid black;
+}
+
+.btn-login {
+  background-color: transparent;
+  border: 2px solid #234cad;
+  border-radius: 25px;
+  color: #234cad;
+  padding: 8px 34px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-login:hover {
+  background-color: #234cad;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-signup {
+  background-color: #f2f6ff;
+  border-radius: 25px;
+  border: none;
+  color: #234cad;
+  padding: 8px 34px;
+  font-size: 18px;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.btn-signup:hover {
+  background-color: #fff;
+  transition: 0.3s;
+}
+/* End Navbar */
+
+/* Banner */
+.banner {
+  background-color: #f2f6ff;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.title-banner {
+  padding: 55px;
+  margin-top: 58px;
+}
+
+.title-banner h3 {
+  color: #234cad;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.title-banner p {
+  color: #234cad;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.card-text-content {
+  color: #234cad;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 13px;
+}
+
+.time-text-content {
+  font-size: 10px;
+  font-weight: 400;
+  padding-left: 8rem;
+}
+
+.time-text-content1 {
+  padding-left: 5rem;
+}
+.service-konten {
+  display: flex;
+}
+
+.service img {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 100%;
+}
+
+.title-banner-service {
+  color: #234cad;
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.p-service {
+  font-size: 18px;
+  color: #234cad;
+  font-weight: 400;
+}
+/* End Banner */
