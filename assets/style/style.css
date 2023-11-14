@@ -16,7 +16,7 @@ body {
   background: #f2f6ff;
   color: #234cad;
   border-radius: 60px;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 #contact .container .p-5 h1 {
@@ -167,6 +167,7 @@ footer li {
     width: 100%;
   }
 }
+
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -292,32 +293,18 @@ body {
 /* End Banner */
 
 /* Yanata */
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-*{
-  font-family: 'Poppins';
-}
 .base {
-  /* padding: 30px; */
-  /* width: 1240px; */
-  /* height: 575px; */
-  /* flex-shrink: 0; */
   border-radius: 60px;
   background: #f2faff;
   color: #234cad;
-  font-family: Nunito;
-  /* border: #312f2f solid 3px; */
 }
 
 .content-f1 {
-  /* padding: 30px; */
   width: 500px;
   height: 500px;
-  /* margin-left: 140px; */
-  /* flex-shrink: 0; */
   border-radius: 60px;
   background: #eef2fd;
   color: #234cad;
-  font-family: Nunito;
 }
 
 .chat-1 {
@@ -325,7 +312,6 @@ body {
   height: 100px;
   border-radius: 25px;
   background: #fff;
-  /* margin-left: 45px; */
 }
 
 .chat-2 {
@@ -333,8 +319,6 @@ body {
   height: 90px;
   border-radius: 25px;
   background: #fcfdff;
-  /* margin-top: 175px; */
-  /* margin-left: 22px; */
 }
 
 .round {
@@ -363,7 +347,6 @@ body {
   height: 70px;
   border-radius: 25px;
   background: #fbfbff;
-  /* margin-top: 290px; */
 }
 
 .round2 {
@@ -391,14 +374,11 @@ body {
   width: 500px;
   height: 500px;
   border-radius: 60px;
-  /* background: #eef2fd; */
   color: #234cad;
-  font-family: Nunito;
   align-items: center;
 }
 
 .text-center {
-  /* font-family: Nunito; */
   color: #234cad; 
 }
 
@@ -410,7 +390,6 @@ body {
   border-radius: 60px;
   background: #eef2fd;
   color: #234cad;
-  font-family: Nunito;
 }
 
 .component {
@@ -491,11 +470,6 @@ body {
 }
 
 /* End Banner */
-* {
-  font-family: "Nunito", sans-serif;
-  margin: 0;
-  padding: 0;
-}
 
 /* About Section */
 .custom-card-img {
