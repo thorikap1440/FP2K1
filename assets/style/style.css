@@ -491,3 +491,176 @@ body {
 }
 
 /* End Banner */
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* About Section */
+.custom-card-img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.card-img-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.participants {
+  position: absolute;
+  bottom: 4px;
+  left: 10px;
+  display: flex;
+}
+
+.participant {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: #f2f6ff;
+  color: #234cad;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  margin-right: -8px;
+}
+
+@media (max-width: 992px) {
+  /* Ukuran layar tablet */
+  .participant {
+    margin-right: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Ukuran layar ponsel */
+  .participant {
+    margin-right: 5px;
+  }
+}
+
+.schedule-card {
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 25px;
+  height: 9rem;
+  border: none;
+  color: #3c60b4;
+  background: linear-gradient(20deg, #fff, #f3f6ff);
+  transition: background-color 0.3s, border 0.3s, color 0.3s; /* Tambahkan efek transisi */
+}
+
+.schedule-card:hover {
+  background: linear-gradient(45deg, #ffffff, #ffffff);
+  color: #234cad;
+}
+
+.card-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 14px; /* ukuran font h5 untuk tampilan ponsel */
+  }
+
+  .card-text {
+    font-size: 10px; /* ukuran font h5 untuk tampilan ponsel */
+  }
+}
+
+/* ukuran font pada desktop */
+.card-title {
+  font-size: 16px;
+}
+
+.card-text {
+  font-size: 12px;
+}
+
+.card.right-card {
+  background-color: #f2f6ff;
+  border-radius: 50px;
+}
+
+.card.left-card {
+  color: #234cad;
+  margin-bottom: 2rem;
+}
+
+.about .btn-about {
+  border: 2px solid #234cad;
+  color: #234cad;
+  transition: transform 0.2s ease;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 2rem;
+  padding: 10px 35px;
+}
+
+.about .btn-about:hover {
+  border: 2px solid #234cad;
+  background-color: #f2f6ff;
+  transform: scale(1.05);
+}
+/* About Section End */
+
+/* Pricing Section  Start*/
+.pricing {
+  align-items: center;
+  text-align: center;
+  color: #234cad;
+}
+
+.pricing .container h1 {
+  color: #234cad;
+  font-weight: bold;
+}
+
+.pricing .card {
+  background-color: #f2f6ff;
+  height: 20rem;
+  margin: 15px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.2s ease;
+  border-radius: 50px;
+  color: #234cad;
+}
+
+.pricing .card:hover {
+  transform: scale(1.05);
+  border: 2px solid #234cad;
+  background-color: #fff;
+}
+
+.pricing .btn-pricing {
+  background-color: #fff;
+  color: #234cad;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 70px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.pricing .btn-pricing:hover {
+  border: 2px solid #234cad;
+}
+/* Pricing Section  End*/
