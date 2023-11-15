@@ -37,7 +37,6 @@ body {
 }
 
 .btn {
-  height: 60px;
   color: #0066ff;
   border: #fff;
 }
@@ -328,7 +327,7 @@ body {
   border-radius: 50%;
   font-size: 18px;
   font-weight: 700;
-  margin-left: 10px ;
+  margin-left: 10px;
 }
 
 .mini-round {
@@ -379,7 +378,7 @@ body {
 }
 
 .text-center {
-  color: #234cad; 
+  color: #234cad;
 }
 
 .content-f2 {
@@ -510,6 +509,10 @@ body {
   .participant {
     margin-right: 8px;
   }
+
+  .pricing .btn-pricing {
+    padding: 10px 23px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -627,14 +630,13 @@ body {
 .pricing .btn-pricing {
   background-color: #fff;
   color: #234cad;
-  display: block;
   font-size: 20px;
   font-weight: bold;
-  padding: 15px 70px;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .pricing .btn-pricing:hover {
   border: 2px solid #234cad;
 }
+
 /* Pricing Section  End*/
