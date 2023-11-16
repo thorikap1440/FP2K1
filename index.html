@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" sizes="180x180" href="" />
+
+    <!-- Bootstrap CSS from CDN -->
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- My Style CSS -->
+    <link rel="stylesheet" href="/assets/style/style.css" />
+    <link rel="stylesheet" href="/assets/style/responsive.css" />
+    <!-- Font Nunito -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Final Project 2</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <div class="fakeLoader"></div>
+    <!-- Header End -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg py-4">
+      <div class="container-lg">
+        <a href="#" class="menu-button">
+          <img src="assets/images/banner-images/menu button.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <img
+            src="assets/images/banner-images/menu button.png"
+            width="25px"
+            class="navbar"
+          />
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav mx-auto">
+            <a class="nav-link mx-3" aria-current="page" href="#">Home</a>
+            <a class="nav-link mx-3" href="#">Product</a>
+            <a class="nav-link mx-3" href="#">About</a>
+            <a class="nav-link mx-3" href="#">Contact</a>
+          </div>
+          <div class="btn-navbar">
+            <button class="btn-login mx-4" type="submit">Login</button>
+            <button class="btn-signup" type="submit">Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Banner -->
+    <section id="banner">
+      <div class="container-lg">
+        <div class="banner mt-4">
+          <div class="row">
+            <div class="col-lg-5 pe-auto">
+              <div class="title-banner">
+                <h3>Business Communications Reinvented</h3>
+                <p>
+                  Start communicating with your business team more efficiently
+                  with our app.
+                </p>
+                <button class="btn-login mt-3" type="submit">
+                  Get the app
+                </button>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <div class="row p-2">
+                <div class="col-lg-12 mt-3">
+                  <div
+                    class="card d-inline-block p-4 rounded-4 border-0 shadow-sm"
+                  >
+                    <img
+                      src="/assets/images/banner-images/Icon.png"
+                      alt=""
+                      style="width: 24px; height: 30px"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                  <div class="card p-2 px-4 rounded-4 border-0 shadow-sm">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="/assets/images/banner-images/Progress.png"
+                        alt=""
+                        style="margin-right: 15px"
+                      />
+                      <p class="card-text-content">
+                        Uploading Document<br />
+                        <span style="font-weight: 400; font-size: 12px"
+                          >7,09/ 108,98 GB
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-3 card-custom">
+                  <div class="card pt-3 py-2 rounded-4 border-0 shadow-sm">
+                    <div class="mx-auto">
+                      <img
+                        src="/assets/images/banner-images/Progress-2.png"
+                        alt=""
+                      />
+                      <p
+                        style="
+                          font-size: 10px;
+                          color: #234cad;
+                          padding-top: 8px;
+                        "
+                      >
+                        1,73/ 2.09 GB
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-5 mt-4">
+                  <div class="card p-2 px-4 rounded-4 border-0 shadow-sm">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="/assets/images/banner-images/Icon-1.png"
+                        alt=""
+                        style="margin-right: 15px"
+                      />
+                      <p class="card-text-content">
+                        Team Meeting<br />
+                        <span style="font-weight: 400; font-size: 12px"
+                          >2:30 PM 15 Apr 2020
+                        </span>
+                      </p>
+                    </div>
+                    <img
+                      src="/assets/images/banner-images/Meeting Participants.png"
+                      alt=""
+                      width="50%"
+                      class="img-custom"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-7 mt-4">
+                  <div class="card p-2 px-4 rounded-4 border-0 shadow-sm">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="/assets/images/banner-images/Person's Initials-1.png"
+                        alt=""
+                        style="margin-right: 15px"
+                      />
+                      <p class="card-text-content">
+                        Anna Brooks
+                        <span class="time-text-content">2.09 PM</span><br />
+                        <span style="font-weight: 400; font-size: 12px"
+                          >Hi, how are you doing today?
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 mt-4">
+                  <div class="card p-2 px-4 rounded-4 border-0 shadow-sm">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="/assets/images/banner-images/Person's Initials.png"
+                        alt=""
+                        style="margin-right: 15px"
+                      />
+                      <p class="card-text-content">
+                        John Smith
+                        <span
+                          class="time-text-content1"
+                          style="font-size: 10px; font-weight: 400"
+                          >11.02 AM</span
+                        ><br />
+                        <span style="font-weight: 400; font-size: 12px"
+                          >Hello, are you available for a pro…
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 card-custom">
+                  <div class="card p-2 px-4 rounded-4 border-0 shadow-sm">
+                    <div class="d-flex align-items-center">
+                      <img
+                        src="/assets/images/banner-images/Icon-simpan.png"
+                        alt=""
+                        style="margin-right: 15px"
+                      />
+                      <p class="card-text-content">
+                        Message Saved <br />
+                        <span style="font-weight: 400; font-size: 12px"
+                          >You have successfully saved this message
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="offset-lg-6 col-lg-4 offset-lg-2 card-custom">
+                  <div
+                    class="card d-inline-block p-3 rounded-4 border-0 shadow-sm mb-3"
+                  >
+                    <img src="/assets/images/banner-images/Icon-2.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row service mt-5 mb-5">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="service-konten">
+                <div class="col-lg-2 me-3">
+                  <img src="assets/images/banner-images/Cloud.png" alt="" />
+                </div>
+                <div class="col-lg-9 mx-3">
+                  <h5 class="title-banner-service">Cloud based</h5>
+                  <p class="p-service">
+                    All your messages are always backed up.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="row">
+              <div class="service-konten">
+                <div class="col-lg-2 me-3">
+                  <img src="assets/images/banner-images/Lock.png" alt="" />
+                </div>
+                <div class="col-lg-9 mx-3">
+                  <h5 class="title-banner-service">Secured</h5>
+                  <p class="p-service">
+                    All your messages are stored very securely.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Banner -->
+
+     <!--Features 1-->
+     <div class="container">
+      <div class="row mt-5 p-3">
+        <div class="col col-lg-6 col-sm-12 base">
+          <div class="container">
+            <div class="notifcard d-flex flex-column align-items-center gap-4 p-4 mb-4">
+              <!--notif 1-->
+              <div class="chat-1 d-flex justify-content-center align-items-center mt-5">
+                <div class="notif d-flex">
+                  <div class="initial d-flex justify-content-center align-items-center">
+                    SB
+                  </div>
+                  <span class="mini-notif d-flex justify-content-center align-items-center">
+                    3
+                  </span>
+                </div>
+                <div class="text" style="margin-left: 20px">
+                  <div class="title-card">Spencer Brooks</div>
+                  <div class="descripe-card">
+                    Have you seen the project requi…
+                  </div>
+                </div>
+                <div class="time align-self-start" style="margin-top: 28px; margin-left: 14px">
+                  3:08 PM
+                </div>
+              </div>
+              <!--notif 2-->
+              <div class="chat-2 d-flex justify-content-center align-items-center" >
+                <div class="notif d-flex">
+                  <div class="round d-flex justify-content-center align-items-center" >
+                    CA
+                  </div>
+                  <span class="mini-round d-flex justify-content-center align-items-center" >
+                    6
+                  </span>
+                </div>
+                <div class="text" style="margin-left: 20px">
+                  <div class="title-card">Callista Allodia</div>
+                  <div class="descripe-card">
+                    Have you seen the project requi…
+                  </div>
+                </div>
+                <div class="time align-self-start" style="margin-top: 28px; margin-left: 14px">
+                  8:40 AM
+                </div>
+              </div>
+              <!--notif 3-->
+              <div
+                class="chat-3 d-flex justify-content-center align-items-center">
+                <div class="notif d-flex">
+                  <div class="round2 d-flex justify-content-center align-items-center">
+                    HH
+                  </div>
+                  <span class="mini-round2 d-flex justify-content-center align-items-center">
+                    2
+                  </span>
+                </div>
+                <div class="text" style="margin-left: 20px">
+                  <div class="title-card">Hans Havillah</div>
+                  <div class="descripe-card">Have you seen the proj…</div>
+                </div>
+                <div
+                  class="time align-self-start"
+                  style="margin-top: 28px; margin-left: 14px"
+                >
+                  2:45 PM
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col col-lg-5 col-sm-12">
+          <div class="h-100 p-5">
+            <div class="d-flex flex-column justify-content-center">
+              <h2 class="fw-bold" style="color: #0e2a8e;">
+                Use our app to<br />
+                send messages<br />
+                to your team
+              </h2>
+              <br />
+              <h6 class="fw-medium mb-5" style="color: #0e2a8e;">
+                We offer really easy communications for <br />
+                all businesses from small to large
+              </h6>
+            </div>
+            <button type="button" class="btn btn-outline-primary rounded-pill">
+              Get the App
+            </button>
+          </div>
+        </div>
+        <!-- <div class="col">
+          <div class="row">
+          </div>
+        </div> -->
+      </div>
+    </div>
+    <!--End Features 1-->
+
+    <!--MIDDLE TEXT-->
+    <section id="mid-text" class="py-2">
+      <div class="container">
+        <div class="text-center mb-5">
+          <br> <br>
+          <h2 class="fw-bold">Transform your communications</h2>
+          <br>
+          <h6 class="fw-medium">Our mobile app is the only thing you need to change the</h6>
+          <h6 class="fw-medium">way you communicate with your team</h6>
+        </div>
+      </div>
+    </section>
+    <!--End Middle Text-->
+
+    <!--Features 2-->
+    <div class="container d-flex justify-content-center">
+      <div class="content-f2 mt-5">
+        <div class="row">
+          <div class="offset-4 col-1 d-flex align-items-end">
+            <div class="component d-flex justify-content-center align-items-center" style="background: #f9fbff">
+              <i class="far fa-file fa-2x"></i>
+            </div>
+          </div>
+          <div class="col-1">
+            <div
+              class="long-card d-flex justify-content-center align-items-center" style="background: #f9fbff">
+              <div class="notif d-flex">
+                <div
+                  class="initial d-flex justify-content-center align-items-center">
+                  SB
+                </div>
+                <span
+                  class="mini-notif d-flex justify-content-center align-items-center">
+                  3
+                </span>
+              </div>
+              <div class="text" style="margin-left: 20px">
+                <div class="title-card">Spencer Brooks</div>
+                <div class="descripe-card">
+                  Have you seen the project requi…
+                </div>
+              </div>
+              <div
+                class="time align-self-start"
+                style="margin-top: 28px; margin-left: 14px"
+              >
+                3:08 PM
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center" style="margin-top: 25px">
+          <div class="col-4">
+            <div
+              class="long-card d-flex align-items-center justify-content-center"
+              style="background: #f8fafd"
+            >
+              <img src="/assets/images/bookmark.svg" alt="" />
+              <div class="text" style="margin-left: 20px">
+                <div class="title-card">Message Saved</div>
+                <div class="descripe-card">
+                  You have successfully saved this message
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-end" style="width: 100%">
+              <div
+                class="component d-flex justify-content-center align-items-center"
+                style="margin-top: 25px; margin-right: 10px; background: #f8fafd" 
+              >
+                <i class="far fa-comment-alt fa-2x"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row">
+              <div class="col-6">
+                <div class="big-card d-flex align-items-center">
+                  <div class="body-card" style="margin: 20px">
+                    <div class="head d-flex align-items-center">
+                      <img src="/assets/images/calender.svg" alt="" />
+                      <div class="text" style="margin-left: 20px">
+                        <div class="title-card">Sales Meeting</div>
+                        <div class="descripe-card">10:30 AM 05 May 2020</div>
+                      </div>
+                    </div>
+                    <div class="atribut d-flex" style="margin-top: 20px">
+                      <div class="pin">KL</div>
+                      <div class="pin" style="margin-left: -10px">MJ</div>
+                      <div class="pin" style="margin-left: -10px">OI</div>
+                      <div class="pin" style="margin-left: -10px">+3</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-6">
+                    <div class="long-card d-flex align-items-center" style="margin-left: 20px">
+                      <img src="/assets/images/upload.svg" alt="" style="margin-left: 20px"/>
+                      <div class="text" style="margin-left: 20px">
+                        <div class="title-card">Uploading Document</div>
+                        <div class="descripe-card">
+                          27,09 / 78,93 GB
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>    
+          </div>
+            <div class="long-card d-flex justify-content-center align-items-center" style="margin-top: 25px; background: #f9fbff"">
+              <div class="notif d-flex">
+                <div
+                  class="initial d-flex justify-content-center align-items-center"
+                >
+                  AS
+                </div>
+                <span
+                  class="mini-notif d-flex justify-content-center align-items-center"
+                  >2</span
+                >
+              </div>
+              <div class="text" style="margin-left: 20px">
+                <div class="title-card">Amy Smith</div>
+                <div class="descripe-card">
+                  Could please call me now? It is i…
+                </div>
+              </div>
+              <div
+                class="time align-self-start"
+                style="margin-top: 28px; margin-left: 14px"
+              >
+                3:08 PM
+              </div>
+            </div>
+            <div class="upload-card d-flex justify-content-center align-items-center" style="margin-top: 25px">
+              <div class="card-content">
+                <img src="/assets/images/upload.svg" alt="" />
+                <div style="margin-top: 20px" class="descripe-card">
+                  6,02 / 7,98 GB
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Features 2-->
+
+    <!-- About Section Start -->
+    <section class="about py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Bagian Kiri -->
+          <div class="col-md-6">
+            <div class="card left-card border-0">
+              <div class="card-body">
+                <h1 class="fw-bold">
+                  Increase the efficiency within your company
+                </h1>
+                <p class="mt-4" style="width: 20rem">
+                  Our app is the great way for you to start getting more tasks
+                  done.
+                </p>
+                <a
+                  href="#"
+                  class="btn btn-lg btn-about mt-5 rounded-pill fw-bold"
+                  >Get the app</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Bagian Kanan -->
+          <div class="col-md-6">
+            <div class="card right-card border-0">
+              <div class="card-body">
+                <div class="row">
+                  <!-- 2 Card Ke Samping -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card schedule-card">
+                      <div class="card-img-text-container">
+                        <div class="card-img-container">
+                          <img
+                            src="/assets/images/Icon.png"
+                            class="card-img-top img-fluid custom-card-img"
+                            alt="Icon"
+                          />
+                        </div>
+                        <div class="card-img-text">
+                          <div class="participants">
+                            <p class="participant">KU</p>
+                            <p class="participant">MG</p>
+                            <p class="participant">AI</p>
+                            <p class="participant">+29</p>
+                          </div>
+                          <div class="card-body">
+                            <!-- Isi konten kartu pertama di sini -->
+                            <h5 class="card-title fw-bold">Daily Standup</h5>
+                            <p class="card-text">2:30 PM 15 Apr 2020</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <div class="card schedule-card">
+                      <div class="card-img-text-container">
+                        <div class="card-img-container">
+                          <img
+                            src="/assets/images/Icon.png"
+                            class="card-img-top img-fluid custom-card-img"
+                            alt="Icon"
+                          />
+                        </div>
+                        <div class="card-img-text">
+                          <div class="participants">
+                            <p class="participant">MC</p>
+                            <p class="participant">KY</p>
+                            <p class="participant">AJ</p>
+                          </div>
+                          <div class="card-body">
+                            <!-- Isi konten kartu kedua di sini -->
+                            <h5 class="card-title fw-bold">Daily Emails</h5>
+                            <p class="card-text">8:30 AM 28 Apr 2020</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Lanjutkan dengan menambahkan Card 3-6 -->
+                  <div class="col-md-6 mb-4">
+                    <div class="card schedule-card">
+                      <div class="card-img-text-container">
+                        <div class="card-img-container">
+                          <img
+                            src="/assets/images/Icon.png"
+                            class="card-img-top img-fluid custom-card-img"
+                            alt="Icon"
+                          />
+                        </div>
+                        <div class="card-img-text">
+                          <div class="participants">
+                            <p class="participant">CO</p>
+                            <p class="participant">VN</p>
+                          </div>
+                          <div class="card-body">
+                            <!-- Isi konten kartu pertama di sini -->
+                            <h5 class="card-title fw-bold">Marketing Call</h5>
+                            <p class="card-text">4:45 PM 30 May 2020</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <div class="card schedule-card">
+                      <div class="card-img-text-container">
+                        <div class="card-img-container">
+                          <img
+                            src="/assets/images/Icon.png"
+                            class="card-img-top img-fluid custom-card-img"
+                            alt="Icon"
+                          />
+                        </div>
+                        <div class="card-img-text">
+                          <div class="participants">
+                            <p class="participant">TR</p>
+                            <p class="participant">DE</p>
+                            <p class="participant">PB</p>
+                            <p class="participant">+2</p>
+                          </div>
+                          <div class="card-body">
+                            <!-- Isi konten kartu kedua di sini -->
+                            <h5 class="card-title fw-bold">Project Meeting</h5>
+                            <p class="card-text">5:45 PM 1 Jun 2020</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="card schedule-card">
+                      <div class="card-img-text-container">
+                        <div class="card-img-container">
+                          <img
+                            src="/assets/images/Icon.png"
+                            class="card-img-top img-fluid custom-card-img"
+                            alt="Icon"
+                          />
+                        </div>
+                        <div class="card-img-text">
+                          <div class="participants"></div>
+                          <div class="card-body">
+                            <!-- Isi konten kartu pertama di sini -->
+                            <h5 class="card-title fw-bold">Presentation</h5>
+                            <p class="card-text">10:15 AM 2 Jul 2020</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-4">
+                    <div class="card schedule-card">
+                      <div class="card-img-text-container">
+                        <div class="card-img-container">
+                          <img
+                            src="/assets/images/Icon.png"
+                            class="card-img-top img-fluid custom-card-img"
+                            alt="Icon"
+                          />
+                        </div>
+                        <div class="card-img-text">
+                          <div class="participants"></div>
+                          <div class="card-body">
+                            <!-- Isi konten kartu kedua di sini -->
+                            <h5 class="card-title fw-bold">Meeting</h5>
+                            <p class="card-text">3:45 PM 16 Apr 2020</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- ... -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Pricing Section Start -->
+    <section class="pricing py-5">
+      <div class="container-fluid py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="main-title">Explore our simple pricing</h1>
+              <p class="body-text mt-4">
+                We offer one of the most competitive prices<br />on the market
+                for everyone.
+              </p>
+            </div>
+          </div>
+
+          <div class="row py-5">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="subtitle mt-5">Basic</h5>
+                  <h1 class="price mt-3">$9</h1>
+                  <p class="body-text">Per month</p>
+                  <a href="#" class="btn btn-pricing mt-4 rounded-pill"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="subtitle mt-5">Premium</h5>
+                  <h1 class="price mt-3">$29</h1>
+                  <p class="body-text">Per month</p>
+                  <a href="#" class="btn btn-pricing mt-4 rounded-pill"
+                    >Get started</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="subtitle mt-5">Enterprise</h5>
+                  <h1 class="price mt-3">$129</h1>
+                  <p class="body-text">Per month</p>
+                  <a href="#" class="btn btn-pricing mt-4 rounded-pill"
+                    >Learn more</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pricing Section End -->
+
+    
+      <!-- Contact & Newsletter -->
+      <section id="contact">
+        <div class="container">
+          <div class="p-5 font-color text-center bg-inline">
+            <h1 class="fw-bold">Sign up to our newsletter</h1>
+            <h5 class="py-4">
+              Receive latest news, updates, discount and<br />many other things
+              every week
+            </h5>
+            <div class="input-group mx-auto w-50">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter your email address"
+                aria-label="Enter your email address"
+                aria-describedby="button-addon2"
+              />
+              <button
+                class="btn fs-5 text-white"
+                style="background-color: #0e2a8e;"
+                type="button"
+                id="button-addon2"
+              >
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <section>
+        <footer class="container">
+          <div class="bg-white ms-5 font-color">
+            <div class="row py-3">
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
+                <h2 class="fw-bold mb-3">Startup.io</h2>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2 text-wrap">© 2023 - All rights reserved</li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
+                <h2 class="fw-bold mb-3">Product</h2>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2 text-wrap">Benefit</li>
+                  <li class="mb-2 text-wrap">Feedback</li>
+                  <li class="mb-2 text-wrap">Features</li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
+                <h2 class="fw-bold mb-3">About</h2>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2 text-wrap">Company</li>
+                  <li class="mb-2 text-wrap">Team</li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 py-3">
+                <h2 class="fw-bold mb-3">Support</h2>
+                <ul class="list-unstyled mb-0">
+                  <li class="mb-2 text-wrap">Get help</li>
+                  <li class="mb-2 text-wrap">Tearms of service</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+      <!-- Footer End -->
+
+      <div class="back-to-top">
+        <a style="color: white"> <i class="fa fa-angle-double-up"></i></a>
+      </div>
+    <script src="/assets/js/script.js"></script>
+    <!-- Bootstrap JS from CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/1bb9a64f53.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+
